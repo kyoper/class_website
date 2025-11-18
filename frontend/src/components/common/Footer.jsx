@@ -46,7 +46,7 @@ function Footer() {
               </div>
               <div>
                 <div className="font-bold text-base md:text-lg">清水亭学校</div>
-                <div className="text-xs md:text-sm text-gray-400">七（三）班</div>
+                /* <div className="text-xs md:text-sm text-gray-400">七（三）班</div> */
               </div>
             </div>
             <p className="text-gray-400 text-xs md:text-sm leading-relaxed hidden md:block">
@@ -94,3 +94,4 @@ function Footer() {
 }
 
 export default Footer;
+
