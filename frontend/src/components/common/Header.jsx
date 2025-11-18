@@ -66,7 +66,7 @@ function Header() {
               <div className="text-lg font-bold text-gray-800 group-hover:text-primary-600 transition-colors">
                 清水亭学校
               </div>
-              <div className="text-xs text-gray-500">七（三）班</div>
+              /* <div className="text-xs text-gray-500">七（三）班</div> */
             </div>
           </Link>
 
@@ -173,3 +173,4 @@ function Header() {
 }
 
 export default Header;
+
