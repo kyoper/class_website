@@ -18,7 +18,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:5174',
-    process.env.FRONTEND_URL
+    'https://class-website-zeta.vercel.app/',
   ].filter(Boolean),
   credentials: true
 }));
@@ -131,3 +131,4 @@ app.listen(PORT, () => {
 });
 
 export default app;
+
